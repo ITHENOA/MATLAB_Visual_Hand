@@ -35,7 +35,7 @@ colors = [0.65,0.65,0.65;
     0.93,0.69,0.13];
 
 close all
-ax = axes;
+ax = tiledlayout(1,1,"TileSpacing","none","Padding","loose");
 hold(ax, 'on');
 grid(ax, 'on');
 axis(ax, 'equal');
